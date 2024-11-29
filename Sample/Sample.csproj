@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RestoreSources>$(MSBuildThisFileDirectory)..</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XamlRulePackage" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

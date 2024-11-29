@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rule Name="MyPropertyPage"
+      Description="A description of my project properties page."
+      DisplayName="My Properties"
+      PageTemplate="generic"
+      Order="500"
+      xmlns="http://schemas.microsoft.com/build/2009/properties">
+
+  <Rule.DataSource>
+    <DataSource Persistence="ProjectFile" HasConfigurationCondition="False" ItemType="Compile" />
+  </Rule.DataSource>
+
+  <StringProperty
+      Name="MyProperty"
+      Category="Advanced"
+      DisplayName="My Property"
+      Description="Some random property in a compile item." />
+
+</Rule>

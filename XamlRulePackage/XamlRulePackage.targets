@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyPageSchema Include="$(MSBuildThisFileDirectory)XamlRule.xaml">
+    <Context>File;BrowseObject</Context>
+  </PropertyPageSchema>
+
+</Project>
